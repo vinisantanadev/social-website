@@ -1,0 +1,52 @@
+
+.perfil {
+
+    margin: 3vh;
+    margin-top: 6vh;
+    width: 23vh;
+    border-radius: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+h1 {
+
+    text-align: center;
+    font-size: 2.3rem;
+
+}
+#perfil-container {
+
+    width: 100%;
+    margin-top: 9vh;
+    text-align: center;
+    font-size:calc(9px + 0.43vw);
+    font-weight: lighter;
+
+}
+#yellow-name {
+
+    color: #F4D615;
+
+}
+.social {
+
+    width: 4.3vh;
+    border-radius: 100%;
+    margin: 1.3vh;
+    transition-duration: 0.3s;
+
+} .social:hover {
+
+    scale: 1.1;
+
+}
+.transition {
+
+    transition-duration: 1.3s;
+
+}
+
+

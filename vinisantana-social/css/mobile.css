@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 866px) {
+
+    /* MAIN */
+    #nome {
+        font-size: calc(9px + 4.33vw);
+    }
+
+    /* JOGOS */
+    #h1-container {
+
+        margin-bottom: 4.33vh;
+
+    }
+    #q-container {
+
+        margin-bottom: 9vh;
+
+    }
+    .subnautica, .ts4, .gta, .rimworld, .cyberpunk {
+
+        width: 83%;
+        min-width: 0;
+        max-width: 383px;
+        max-height: none;
+        margin: auto;
+        margin-bottom: 6vh;
+        display: block;
+
+        text-align: center;
+    
+    }
+    #img-subnautica, #img-ts4, #img-gta, #img-rimworld, #img-cyberpunk {
+    
+        width: 109.2%;
+        max-width: none;
+        margin: auto;
+        margin-top: -4vh;
+        margin-left: -6px;
+        margin-right: none;
+        float: none;
+    
+    }
+    #h2-subnautica, #h2-ts4, #h2-gta, #h2-rimworld, #h2-cyberpunk {
+
+        font-size:calc(9px + 2.33vw);
+
+    }
+    #text-container {
+
+        padding: 1vh;
+
+    }
+    #p-subnautica, #p-ts4, #p-gta, #p-rimworld, #p-cyberpunk{
+
+        display: none;
+        
+    }
+
+}
