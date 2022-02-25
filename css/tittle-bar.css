@@ -1,0 +1,59 @@
+
+/* TITTLE-BAR */
+header{
+    
+    height: 11.3vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+
+    border-radius: 0px 1.6vh 0px 0px;
+
+}
+.menu {
+
+    width: 89%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+.menu > a > img {
+
+    background: #afafaf16;
+
+    border-radius: 1.3vh;
+
+    transition: 0.16s;
+    transition-timing-function: ease-in-out;
+
+} .menu > a > img:hover {
+
+    background: #A789E933;
+
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+
+}
+#home {
+
+    width: 3.3vh;
+    margin-right: 23px;
+    display: none;
+
+    border-radius: 0px;
+
+    background: none;
+
+}
+#jogos {
+
+    width: 4.3vh;
+    display: none;
+
+    border-radius: 0px;
+
+    background: none;
+
+}

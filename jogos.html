@@ -19,15 +19,22 @@
     <!-- TITTLE BAR -->
     <main class="window"> 
         <header class="tittle-bar">
-            <div class="close"></div>
-            <div class="minimize"></div>
-            <div class="maximize"></div>
+            <nav class="flex hide">
+                <div class="window-button" id="close"></div>
+                <div class="window-button" id="minimize"></div>
+                <div class="window-button" id="maximize"></div>
+            </nav>
 
-            <nav>
-                <a href="index.html" class="menu">
+            <nav class="menu">
+                <a href="index.html">
+                    <img src="img/restore.svg" alt="">
+                </a>
+
+                <a href="index.html" class="hide">
                     <img src="img/home.svg" alt="" id="home">
                 </a>
-                <a href="jogos.html" class="menu">
+
+                <a href="jogos.html" class="hide">
                     <img src="img/jogos-blue.svg" alt="" id="jogos">
                 </a>
             </nav>
@@ -101,18 +108,6 @@
                 </article>
             </section>
         </section>
-
-        <footer class="transition">
-            <a href="https://steamcommunity.com/id/bilugalatico/" target="blink" class="steam">
-                <img src="img/steam.png" alt="" class="social">
-            </a>
-
-            <a href="https://twitter.com/bilugalatico" target="blink" class="twitter">
-                <img src="img/twitter.png" alt="" class="social">
-            </a>
-
-            <p>&copy Vinicius Santana - 2022</p>
-        </footer>
     </div>
 </body>
 </html>

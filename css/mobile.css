@@ -5,6 +5,65 @@
     #nome {
         font-size: calc(9px + 4.33vw);
     }
+    /* Top menu */
+    .menu {
+
+        display: flex;
+        align-items: center;
+
+    }
+    #jogos {
+
+        display: unset;
+
+    }
+
+    #content-container {
+        
+        width: 66%;
+        position: relative;
+        margin: auto;
+
+    }
+
+    /* Side Bar */
+    aside {
+
+        display: none;
+
+    }
+    /* Side Bar */
+    #mobile-footer {
+
+        display: unset;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        font-size: 1.66vh;
+        font-weight: lighter;
+        text-align: center;
+
+    }
+    #social-container {
+
+        width: 100%;
+        height: auto;
+        padding: 1.6vh;
+
+    }
+    .social {
+
+        width: 3.3vh;
+        margin-right: 1.6vh;
+        transition-duration: 0.3s;
+    
+    } .social:hover {
+    
+        scale: 1.1;
+    
+    }
 
     /* JOGOS */
     #h1-container {
