@@ -61,13 +61,14 @@ body{
 main {
 
     width: 89%;
+    max-width: 1333px;
     height: 93vh;
     position: relative;
     display: flex;
     
     border-radius: 1.6vh;
     border-image: url(subnautica.svg);
-    box-shadow: 0 0 0 3px black;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.73);
 
     background: #212121;
 
