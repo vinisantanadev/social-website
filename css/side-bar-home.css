@@ -81,7 +81,7 @@ aside {
 }
 .item-side-bar {
 
-    width: calc(333px - 10.6vh); /* side bar width - margin - item padding */
+    width: calc(233px - 10.6vh); /* side bar width - margin - item padding */
     margin-bottom: 0.6vh;
     padding: 0.9vh 2.3vh 0.9vh 2.3vh;
     gap: 1.6vh;
