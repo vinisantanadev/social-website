@@ -43,7 +43,7 @@
 
 body{
 
-    background-image: linear-gradient(360deg, #a556ff, #586DFF);
+    background-image: url(../img/webbed.png);
     background-repeat: no-repeat;
     color: #AFAFAF;
     font-family: 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
@@ -60,7 +60,7 @@ body{
 /* MAIN WINDOW */
 main {
 
-    width: 89%;
+    width: 100%;
     max-width: 1333px;
     height: 93vh;
     position: relative;
@@ -68,7 +68,7 @@ main {
     
     border-radius: 1.6vh;
     border-image: url(subnautica.svg);
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.73);
+    box-shadow: 0 0 0 3px rgba(16, 16, 16);
 
     background: #212121;
 
@@ -101,7 +101,7 @@ main {
     height: calc(93vh - 6px);
 
     border-radius: 1.6vh;
-    border: solid 3px #b183fa66;
+    border: solid 3px rgba(255, 255, 255, 0.166);
 
 }
 #content-container {

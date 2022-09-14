@@ -7,7 +7,7 @@ aside {
     border-radius: 1.6vh 0px 0px 1.6vh;
     border-right: solid 3px #00000033;
     
-    background-image: linear-gradient(360deg, #a556ff33, #586DFF33);
+    background-image: linear-gradient(199deg, #2c365733, #5d83ff23, #ff947123, #ff324d23);
 }
 #window-buttons { /* buttons container */
 
@@ -29,9 +29,30 @@ aside {
     margin-right: 1.6vh;
 
 }
+
 #close {background-color: #F66153;}
-#minimize {background-color: #F8C12F;}
+#close:hover {
+
+    background-color: #ff766a;
+    cursor: pointer;
+
+}
+
+#minimize {background-color: #ffc831;}
+#minimize:hover {
+
+    background-color: #ffda74;
+    cursor: pointer;
+
+}
+
 #maximize {background-color: #11D236;}
+#maximize:hover {
+
+    background-color: #3fe761;
+    cursor: pointer;
+
+}
 
 #items-container {
     
@@ -55,7 +76,7 @@ aside {
 
 } #home-link:hover {
 
-    background: #A789E933;
+    background: #9cb3ff16;
 
 }
 .item-side-bar {
@@ -80,7 +101,7 @@ aside {
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
 
-    background: #A789E933;
+    background: #ffffff10;
 
 }
 .item-icon {
@@ -98,6 +119,6 @@ footer {
     font-weight: lighter;
     text-align: center;
 
-    color: #afafaf89;
+    color: #ffffff33;
 
 }
