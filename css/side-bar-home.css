@@ -3,6 +3,7 @@ aside {
     width: 333px;
     height: 93vh;
     z-index: 3;
+    font-family: 'Nunito', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     border-radius: 3vh 0px 0px 3vh;
     border-right: solid 3px #00000033;

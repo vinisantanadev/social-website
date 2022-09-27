@@ -51,7 +51,7 @@ body{
     background-image: url(../img/webbed.png);
     background-repeat: no-repeat;
     color: #AFAFAF;
-    font-family: 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
+    font-family: 'Nunito', 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
     font-size: 3vh;
     font-weight: bolder;
     display: flex;

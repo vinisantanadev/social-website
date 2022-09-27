@@ -9,6 +9,50 @@
     overflow: auto;
 
 }
+
+#input-container {
+
+    width: calc(66% - 27vh);
+    min-width: 366px;
+    max-width: 666px;
+    height: auto;
+    max-height: 18.66vh;
+    margin: auto;
+    margin-bottom: 3vh;
+    align-items: center;
+    padding: 3vh;
+    
+    background: rgb(21, 21, 21);
+    border-radius: 1.6vh;
+    border: solid 3px rgb(09, 09, 09);
+    box-shadow: 0px 6px 9px  rgb(21, 21, 21);
+
+}
+input {
+
+    margin: 1.6vh 0px 1.6vh 0px;
+    padding: 0.6vh;
+    color: #ffffff66;
+
+    background-color: #262626;
+    border: solid 3px #ffffff33;
+    border-radius: 1.6vh;
+
+}
+#input-somar {
+
+    background-color: #43ff4399;
+    color: #ffffff89;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+} #input-somar:hover {
+
+    color: #ffffff89;
+    background-color: #37cf37;
+
+}
+
 #h1-container {
 
     width: 66%;
