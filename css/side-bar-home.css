@@ -4,7 +4,7 @@ aside {
     height: 93vh;
     z-index: 3;
 
-    border-radius: 1.6vh 0px 0px 1.6vh;
+    border-radius: 3vh 0px 0px 3vh;
     border-right: solid 3px #00000033;
     
     background-image: linear-gradient(199deg, #2c365733, #5d83ff23, #ff947123, #ff324d23);
@@ -28,9 +28,15 @@ aside {
     float: left;
     margin-right: 1.6vh;
 
+    border: solid inset 6px #ffffff33;
+
 }
 
-#close {background-color: #F66153;}
+#close {
+
+    background-color: #F66153;
+
+}
 #close:hover {
 
     background-color: #ff766a;
@@ -81,7 +87,7 @@ aside {
 }
 .item-side-bar {
 
-    width: calc(233px - 10.6vh); /* side bar width - margin - item padding */
+    width: calc(333px - 10.6vh); /* side bar width - margin - item padding */
     margin-bottom: 0.6vh;
     padding: 0.9vh 2.3vh 0.9vh 2.3vh;
     gap: 1.6vh;

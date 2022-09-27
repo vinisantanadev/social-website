@@ -16,6 +16,10 @@
 
         width: calc(100% - 233px);
         
+    }
+    .item-side-bar {
+
+        width: calc(233px - 10.6vh);
 
     }
     

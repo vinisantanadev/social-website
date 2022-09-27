@@ -22,12 +22,17 @@
 
 } ::-webkit-scrollbar-thumb {
 
-    background: #AFAFAF;
+    background: #AFAFAF66;
     border-radius: 99vh;
 
 }
 
 /* Global settings */
+.transition {
+
+    transition-duration: 1.3s;
+
+}
 .flex {
 
     display: flex;
@@ -66,9 +71,9 @@ main {
     position: relative;
     display: flex;
     
-    border-radius: 1.6vh;
+    border-radius: 3vh;
     border-image: url(subnautica.svg);
-    box-shadow: 0 0 0 3px rgba(16, 16, 16);
+    box-shadow: 0 0 0 3px #191919;
 
     background: #212121;
 
@@ -84,8 +89,8 @@ main {
     width: 100%;
     height: 93vh;
 
-    border-radius: 1.6vh;
-    box-shadow: 0px 9px 19px -6px black;
+    border-radius: 3vh;
+    box-shadow: 0px 9px 19px -6px #212121;
 
 } .window::before {
 
@@ -99,9 +104,10 @@ main {
     z-index: 1;
     width: calc(100% - 6px);
     height: calc(93vh - 6px);
+    transition-duration: 1.3s;
 
-    border-radius: 1.6vh;
-    border: solid 3px rgba(255, 255, 255, 0.166);
+    border-radius: 3vh;
+    border: solid 3px #83838333;
 
 }
 #content-container {

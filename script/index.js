@@ -22,5 +22,14 @@ function maximizar() {
     janela.style.width = '100%'
     janela.style.maxWidth = 'none'
 
+    maximize.addEventListener('click', redimensionar)
+
+    function redimensionar() {
+
+        janela.style.width = '100%'
+        janela.style.maxWidth = '1333px'
+
+    }
+
 }
 
