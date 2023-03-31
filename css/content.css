@@ -26,12 +26,16 @@ h1 {
     font-weight: lighter;
 
 }
-#yellow-name {
+#colored-name {
 
-    color: #F4D615;
+    color: #9A7ED6;
 
 }
+.transition {
 
+    transition-duration: 1.3s;
+
+}
 #mobile-footer {
 
     display: none;

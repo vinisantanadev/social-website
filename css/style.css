@@ -22,17 +22,12 @@
 
 } ::-webkit-scrollbar-thumb {
 
-    background: #AFAFAF66;
+    background: #AFAFAF;
     border-radius: 99vh;
 
 }
 
 /* Global settings */
-.transition {
-
-    transition-duration: 1.3s;
-
-}
 .flex {
 
     display: flex;
@@ -48,10 +43,10 @@
 
 body{
 
-    background-image: url(../img/webbed.png);
+    background-image: url(../img/unillustration.png );
     background-repeat: no-repeat;
     color: #AFAFAF;
-    font-family: 'Nunito', 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
+    font-family: 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
     font-size: 3vh;
     font-weight: bolder;
     display: flex;
@@ -65,7 +60,7 @@ body{
 /* MAIN WINDOW */
 main {
 
-    width: 100%;
+    width: 89%;
     max-width: 1333px;
     height: 93vh;
     position: relative;
@@ -73,9 +68,10 @@ main {
     
     border-radius: 3vh;
     border-image: url(subnautica.svg);
-    box-shadow: 0 0 0 3px #191919;
+    box-shadow: 0 0 0 3px #160d16;
 
-    background: #212121;
+    background: #16161666;
+    backdrop-filter: blur(99px);
 
 } .window:before {
     
@@ -90,7 +86,7 @@ main {
     height: 93vh;
 
     border-radius: 3vh;
-    box-shadow: 0px 9px 19px -6px #212121;
+    box-shadow: 0px 9px 19px -6px black;
 
 } .window::before {
 
@@ -104,17 +100,20 @@ main {
     z-index: 1;
     width: calc(100% - 6px);
     height: calc(93vh - 6px);
-    transition-duration: 1.3s;
 
     border-radius: 3vh;
-    border: solid 3px #83838333;
+    border: solid 3px rgba(255, 255, 255, 0.166);
 
 }
 #content-container {
 
     width: calc(100% - 333px); /* 333px da side-bar */
-    height: 93vh;
+    height: calc(93vh - 6px);
     position: absolute;
     right: 0px;
+    border-radius: 0vh 3vh 3vh 0vh;
+
+    border: solid 3px #00000066;
+    background-color: #212121;
 
 } /* --MAIN WINDOW-- */
