@@ -39,14 +39,12 @@
 
 }
 
-
-
 body{
 
-    background-image: url(../img/unillustration.png );
+    background-image: url(../img/universe.jpg);
     background-repeat: no-repeat;
     color: #AFAFAF;
-    font-family: 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
+    font-family: monospace;
     font-size: 3vh;
     font-weight: bolder;
     display: flex;
@@ -57,6 +55,17 @@ body{
     overflow: hidden;
     
 }
+
+#planeta {
+
+    position: absolute;
+    bottom: -99px;
+    right: -66px;
+    width: 26vh;
+    z-index: 999;
+
+}
+
 /* MAIN WINDOW */
 main {
 

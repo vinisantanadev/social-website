@@ -46,16 +46,18 @@ aside {
     margin-top: 4.3vh;
     margin-bottom: 0.9vh;
 
-    color: #afafaf66;
+    color: #ffffff43;
 
 }
 #home-link {
 
-    background: #afafaf16;
+    background: transparent;
+    color: #9A7ED6;
+    font-weight: bolder;
 
 } #home-link:hover {
 
-    background: #9cb3ff16;
+    background: #ffffff16;
 
 }
 .item-side-bar {
@@ -69,7 +71,7 @@ aside {
     display: flex;
     align-items: center;
 
-    color: #afafaf;
+    color: #ffffff83;
     border-radius: 0.9vh;
 
     transition-duration: 0.3s;
@@ -80,7 +82,8 @@ aside {
     transition-duration: 0.16s;
     transition-timing-function: ease-in-out;
 
-    background: #ffffff10;
+    background: #ffffff16;
+    color: #ffffffc6
 
 }
 .item-icon {
