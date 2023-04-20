@@ -12,39 +12,49 @@
         align-items: center;
 
     }
-    #jogos {
-
-        display: unset;
-
-    }
 
     #content-container {
         
-        width: 66%;
-        position: relative;
-        margin: auto;
+        width: 83%;
 
     }
 
     /* Side Bar */
-    aside {
+    aside p, h2, #window-buttons {
 
         display: none;
+        border: none;
 
     }
-    /* Side Bar */
-    #mobile-footer {
+    #items-container {
 
-        display: unset;
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        margin: unset;
+        margin-left: 0%;
+    }
+    aside ul, nav {
+
+        margin-top: 33px;
+        margin-left: 0;
+
+    }
+    #link-jogos {
+
+        display: none;
         
-        font-size: 1.66vh;
-        font-weight: lighter;
-        text-align: center;
+    }
+    .item-side-bar:hover {
 
+        transition-duration: unset;
+        transition-timing-function: unset;
+    
+        background: none;
+        color: none;
+    
+    }
+    #home-link:hover {
+
+        background: unset;
+    
     }
     #social-container {
 
